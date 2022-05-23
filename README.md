@@ -1,4 +1,4 @@
-# horoscope
+# Horoscope
 Horoscope Task
 
 Il progetto è sviluppato in php nativo, database MariaDB, l'uso delle librerie è limitato a Bootstrap per un'impaginazione semplice ed efficace.
@@ -6,7 +6,7 @@ Essenzialmente si tratta di due pagine web visitabili index.php e horoscope.php 
 Una volta popolato il database di records, dalla pagina horoscope.php è possibile calcolare il proprio segno zodiacale inserendo la data di nascita, e leggere
 i relativi oroscopi giornalieri in ordine cronologico decrescente.
 
-# struttura
+# Struttura
 
 La parte front-end del progetto è molto essenziale, divisa in tre file .php : header, navbar, footer.
 
@@ -22,3 +22,11 @@ Il file functions.php comprende le funzioni necessarie alla pagina horoscope.php
 Il file get-signs.php è quello che contiene le queries necessarie per andare a selezionare in modo mirato i contenuti dal database.
 
 Il file card.php predispone la visualizzazione (all'interno della pagina horoscope.php) dei contenuti richiamati dal database.
+
+# Screenshots
+
+<img src="readme-src/task01.png"><br>
+
+<img src="readme-src/task02.png"><br>
+
+<img src="readme-src/task03.png"><br>
