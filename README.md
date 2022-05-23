@@ -13,6 +13,8 @@ La parte front-end del progetto è molto essenziale, divisa in tre file .php : h
 Il file connect.php è quello che consente l'accesso al database: per testare il progetto è necessario personalizzare le credenziali di accesso.
 Per questo progetto ho creato un database dal nome test, e una tabella di nome horoscopes, con le colonne id, num, text, date, e sign. 
 
+<img src="readme-src/database.png">
+
 Il file upload.php è il file action del form in index, destinato all'upload del file csv e all'inserimento nel database dei dati importati.
 
 Il file functions.php comprende le funzioni necessarie alla pagina horoscope.php per poter leggere il valore degli input del form, calcolare il segno zodiacale, e andare a richiamare la query necessaria per la visualizzazione dei contenuti in pagina.
