@@ -14,7 +14,7 @@ Il file connect.php è quello che consente l'accesso al database: per testare il
 Per questo progetto ho creato un database dal nome test, due tabelle horoscopes (con le colonne id, num, text, date, sign e foreign key zodiac_id), e zodiacs 
 (con id, emoji, name, start_date, end_date). 
 
-<img src="readme-src/task-vs02-db.png">
+<img src="readme-src/task-vs2-db.png">
 
 Il file upload.php è il file action del form in index, destinato all'upload del file csv e all'inserimento nel database dei dati importati.
 
