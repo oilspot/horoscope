@@ -12,9 +12,14 @@ $zodiacSign = '';
 // funzione per il calcolo del segno zodiacale
 
 function calculateZodiacalSign() {
-  // $day e $month raccolgono i valori inseriti nel form
-    $day = $_POST['day'];
-    $month = $_POST['month'];
+
+// la variabile $birthdate raccoglie il valore inserito nel date picker del form. Di default il formato della data è yyyy-mm-dd
+    $birthdate = $_POST['birthdate'];
+
+// il metodo explode consente di
+    $cutBirthdate = explode("-", $birthdate);
+    $month = $cutBirthdate[1];
+    $day = $cutBirthdate[2];
 
   // crea un alert in caso di immissione di valori numerici non corretti
     if ( ($month > 12 || $day > 31 ) ) { echo "<script type=\"text/javascript\">alert(\"ERROR: entry a valid input!\"); window.location = \"horoscope.php\"</script>";}
